@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>8gadgetpack</id>
+    <version>41.0</version>
+    <packageSourceUrl>https://github.com/wooky/my-choco-packs/tree/master/packages/8gadgetpack</packageSourceUrl>
+    <owners>wjykk</owners>
+    <title>GadgetPack (Install)</title>
+    <authors>Helmut Buhler</authors>
+    <projectUrl>https://gadgetpack.net/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/wooky/my-choco-packs@master/packages/8gadgetpack/gadgetpack_icon.png</iconUrl>
+    <copyright>Copyright © Helmut Buhler</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://gadgetpack.net/howto.html</docsUrl>
+    <mailingListUrl>https://twitter.com/8gadgetpack</mailingListUrl>
+    <bugTrackerUrl>https://gadgetpack.net/Feedback.php</bugTrackerUrl>
+    <tags>8gadgetpack gadgetpack windows gadgets sidebar</tags>
+    <summary>GadgetPack (formerly 8GadgetPack) makes it possible to use Gadgets on Windows 11 / 10.</summary>
+    <description>
+# GadgetPack
+
+GadgetPack (formerly 8GadgetPack) makes it possible to use Gadgets on Windows 11 / 10.
+
+![GadgetPack screenshot](https://cdn.statically.io/gh/wooky/my-choco-packs@master/packages/8gadgetpack/gadgetpack_screenshot.jpg)
+
+* It installs the Gadget Platform that was originally present in Windows 7 with some modifications that make it work on newer Operating Systems.
+* It also installs some Gadgets (see list below) which were also modified to work and look better.
+* .gadget files can also be installed when GadgetPack is installed.
+* For more information on how to use it, see the [How-to](https://gadgetpack.net/howto.html). For more detailed information and answers to common questions, see the [FAQ](https://gadgetpack.net/faq.html).
+* It's free!
+
+## Gadgets included
+
+The following Gadgets are installed automatically with GadgetPack:
+
+* 7 Sidebar - Helmut Buhler
+* Agenda - Ronnie
+* All CPU Meter - AddGadgets.com
+* App Launcher - Dean Laforet
+* Battery Meter - Vitim
+* Breathe - danvdragos
+* Calendar - Microsoft
+* Clipboarder - Helmut Buhler
+* Clock (Analog) - Microsoft
+* Clock (Digital) - s.blank
+* Color Palette - Plain Wonders
+* Currency - Microsoft
+* Control System - AddGadgets.com
+* Control Panel - Legiones
+* Countdown - Alexander Burton
+* CPU Meter - Microsoft
+* Date &amp; Time - buildagadget.com
+* Desktop Calculator - Home Cooked Gadgets
+* Display Sleep - Exodus-Sx
+* DriveInfo - Kris Thompson
+* Drive Activity - Sascha Katzner
+* Drives Meter - AddGadgets.com
+* Glassy CPU Monitor - Helmut Buhler
+* Glassy Network Monitor - Helmut Buhler
+* GPU Meter - AddGadgets.com
+* HUD Time - Factor Mystic
+* Mousometer - Sven Bader
+* MSN Weather - Microsoft
+* My Weather - Pat Possible
+* Network Meter - AddGadgets.com
+* Network Monitor II - Igor M. Bushin
+* Picture Puzzle - Microsoft
+* Power Status - Orbmu2k
+* Recycle Bin - Eiskalter Engel
+* Reminder (Denk-Daran) - dahi24
+* Remove Drive Safely - Plamen Todorov
+* searchALL Gadget - Jayden Howard
+* ShutdownRestart - Midnight Mick
+* Slide Show - Microsoft
+* Sticky Notes - Microsoft
+* Top Five - Orbmu2k
+* Turn off PC - Carlos A. Prialé Condori
+* Unit Converter - GadgetWE
+* Volume Control - Orbmu2k
+* スクロールカレンダー - 66turn
+    </description>
+    <releaseNotes>https://gadgetpack.net/changelog.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
