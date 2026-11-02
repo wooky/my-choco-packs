@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>8gadgetpack</id>
-    <version>42.0</version>
+    <version>43.0</version>
     <packageSourceUrl>https://github.com/wooky/my-choco-packs/tree/master/packages/8gadgetpack</packageSourceUrl>
     <owners>wjykk</owners>
     <title>GadgetPack (Install)</title>

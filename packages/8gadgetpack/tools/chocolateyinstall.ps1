@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://gadgetpack.net/dl_420/GadgetPackSetup.msi'
+$url        = 'https://gadgetpack.net/dl_430/GadgetPackSetup.msi'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'GadgetPack'
 
-  checksum      = '1c0408a2442c8dc5e6c934ba566c98fa'
+  checksum      = '341cc2d6c788f20842fff70fb07e5873'
   checksumType  = 'md5'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
